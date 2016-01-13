@@ -1,0 +1,20 @@
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">{{ site.title }}</h1>
+                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
+                        <ul class="list-inline banner-social-buttons">
+                        {% for network in site.social %}
+                        <li>
+                            <a href="{{ network.url }}" rel="me" class="btn btn-circle" title="{{ network.title }}"><i class="fa fa-{{ network.icon }} animated"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>

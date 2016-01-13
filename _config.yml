@@ -1,0 +1,45 @@
+# Site settings
+title: Mx A. Matienzo
+email: mark@matienzo.org
+url: https://example.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Your Website
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    icon: twitter
+    url: https://twitter.com/anarchivist
+  - title: linkedin
+    icon: linkedin
+    url: https://www.linkedin.com/in/markmatienzo
+  - title: github
+    icon: github
+    url: https://github.com/anarchivist
+  - title: medium
+    icon: medium
+    url: https://medium.com/@anarchivist 
+  - title: lastfm
+    icon: lastfm
+    url: http://www.lastfm.com/user/anarchivist
+  - title: flickr
+    icon: flickr
+    url: https://www.flickr.com/people/anarchivist/
+  - title: google-scholar
+    icon: google
+    url: https://scholar.google.com/citations?user=3VZ8BUUAAAAJ
+  - title: orcid
+    icon: link
+    url: http://orcid.org/0000-0003-3270-1306
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
