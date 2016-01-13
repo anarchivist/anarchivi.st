@@ -26,9 +26,15 @@ social:
   - title: medium
     icon: medium
     url: https://medium.com/@anarchivist 
+  - title: pinboard
+    icon: thumb-tack
+    url: https://pinboard.in/u:anarchivist
   - title: lastfm
     icon: lastfm
     url: http://www.lastfm.com/user/anarchivist
+  - title: bandcamp
+    icon: music
+    url: https://bandcamp.com/anarchivist
   - title: flickr
     icon: flickr
     url: https://www.flickr.com/people/anarchivist/

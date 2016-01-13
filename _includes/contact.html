@@ -1,17 +1,23 @@
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+    <section id="contact" class="container content-section">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <p>Dolor reprehenderit repellendus, optio labore odio at tempore debitis nisi. Quasi debitis tenetur eaque molestias non porro odio sapiente.</p>
-                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    {% for network in site.social %}
-                    <li>
-                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
-                    </li>
-                    {% endfor %}
+                <h2 class="text-center">Contact</h2>
+                    <form action="//formspree.io/mark@matienzo.org"
+                          method="POST" class="form">
+                        <div class="form-group">
+                            <label for="name">Name</label><input type="text" class="form-control" name="name" placeholder="Your name">
+                            <label for="email">Email</label><input type="email" class="form-control" name="_replyto" placeholder="Your email address">
+                        </div>
+                        <div class="form-group">
+                            <input type="hidden" name="_subject" value="Contact form submission from anarchivi.st">
+                            <label for="body">Message</label><textarea name="body" class="form-control" rows="3" placeholder="The body of your message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Send" class="btn btn-default">
+                            <input type="text" name="_gotcha" style="display:none" />
+                        </div>
+                    </form>
                 </ul>
             </div>
         </div>
